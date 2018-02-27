@@ -6,6 +6,6 @@ resource "aws_ecr_repository" "jenkins" {
 }
 
 variable "jenkins_image_name" {
-  default = "mycompany/jenkins"
+  default = "global/jenkins"
   description = "Jenkins image name."
 }
